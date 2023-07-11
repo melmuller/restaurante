@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 20vh;
+    background-image: url(/assets/comida.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Playfair Display SC', serif;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
+}
+
+.primeiro_nav{
+    width: 50vw;
+    border: 1px solid black;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primeiro_nav_link{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.imagem_cabecalho{
+    width: 3vw;
+}
+
+.cabecalho_segundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 10px;
+}
+
+.segunda_nav_link{
+    font-size: 8vw;
+    text-transform: uppercase;
+}
+
+.primeira_sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3{
+    width: 38vw;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.primeira_sessao_paragrafo{
+    text-align: center;
+    width: 90vw;
+    font-size: 10px;
+}
+
+#primeira_sessao_botao{
+    width: 20vw;
+    background-color: #3b3131;
+    border: none;
+    border-radius: 2px;
+    height: 2.5vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+.segunda_sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagens_sessao{
+    width: 32.5vw;
+    min-height: 20vw;
+    object-fit: cover;
+}
+
+footer{
+    height: 3vh;
+    background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+    h1{
+        font-size: 40px;
+    }
+
+    .primeiro_nav{
+        font-size: 25px;
+    }
+
+    .cabecalho_segundo{
+        margin-top: 8vh;
+        gap: 30px;
+    }
+}
